@@ -21,6 +21,8 @@ describe("booking film", () => {
             cy.selectChair(selectors.client.chair1);
             cy.selectChair(selectors.client.chair2);
             cy.selectChair(selectors.client.chair3);
+            cy.contains("Забронировать").click();
+            cy.contains("Вы выбрали билеты:").should("be.visible");
           });
       });
     });
