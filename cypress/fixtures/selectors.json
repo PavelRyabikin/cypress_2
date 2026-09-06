@@ -1,0 +1,15 @@
+{
+  "admin": {
+    "email": "[name=\"email\"]",
+    "password": "[name=\"password\"]",
+    "movieTitle": ".conf-step__movie-title"
+  },
+  "client": {
+    "day": ".page-nav__day:nth-of-type(7)",
+    "movieTitle": ".movie__title",
+    "movie": ".movie",
+    "chair1": ".buying-scheme__wrapper > :nth-child(5) > :nth-child(5)",
+    "chair2": ".buying-scheme__wrapper > :nth-child(5) > :nth-child(6)",
+    "chair3": ".buying-scheme__wrapper > :nth-child(5) > :nth-child(7)"
+  }
+}
