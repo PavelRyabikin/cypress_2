@@ -6,7 +6,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:main-page": "cypress run --browser chrome --spec cypress/e2e/main-page.cy.js --record --key b69fa027-548c-4e20-8b0e-e1a85e71a0f3",
+    "cy:admin-login": "cypress run --browser chrome --spec cypress/e2e/admin-login.cy.js --record --key b69fa027-548c-4e20-8b0e-e1a85e71a0f3",
+    "cy:booking": "cypress run --browser chrome --spec cypress/e2e/booking.cy.js --record --key b69fa027-548c-4e20-8b0e-e1a85e71a0f3"
   },
   "dependencies": {
     "cypress": "^16.0.0"
